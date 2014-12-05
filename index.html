@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8"/>
   <title>Coloco Player</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-
-  <button id="prev">&larr;</button>
-  <button id="play">&ge;</button>
-  <button id="next">&rarr;</button>
   <div>
+    <h1 id="js-song-title"></h1>
     <audio id="container"></audio>
   </div>
+  <!-- <button class="btn" id="prev">&larr;</button> -->
+  <button class="btn" id="play">&ge;</button>
+  <button class="btn" id="rand">&iquest;</button>
+  <!-- <button class="btn" id="next">&rarr;</button> -->
 
   <script src="http://localhost:1337/socket.io/socket.io.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/player.js"></script>
 </body>
 </html>

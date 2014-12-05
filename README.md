@@ -1,3 +1,7 @@
 # Coloco Player
 
-Plug and play :)
+## Installation
+
+```bash
+$ bower install
+```
